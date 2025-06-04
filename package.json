@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/nishchayag/backend-js-project#readme",
+  "description": "first backend project",
+  "homepage": "https://github.com/nishchayag/backend-in-js#readme",
   "bugs": {
-    "url": "https://github.com/nishchayag/backend-js-project/issues"
+    "url": "https://github.com/nishchayag/backend-in-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nishchayag/backend-js-project.git"
+    "url": "git+https://github.com/nishchayag/backend-in-js.git"
   },
   "license": "ISC",
   "author": "",
