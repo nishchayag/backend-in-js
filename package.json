@@ -11,10 +11,10 @@
     "url": "git+https://github.com/nishchayag/backend-in-js.git"
   },
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "author": "Nishchay Agarwal",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   }
 }
