@@ -1,10 +1,20 @@
-// import express from "express";
-// const app = express.Router();
+import express from "express";
+import cookieParser from "cookie-parser";
+import cors from "cors";
 
-// app.get("/", (req, res) => {
-//   res.send("<h1>Home Page </h1>");
-// });
+const app = express();
 
-// app.listen(process.env.PORT, () => {
-//   console.log("Server Started");
-// });
+app.use(
+  cors({
+    origin: process.env.CORS_ORIGIN,
+    credentials: true,
+  })
+);
+
+app.use(express.json({ limit: "16kb" }));
+app.use(express.urlencoded({ extended: true, limit: "16kb" }));
+app.use(express.static("public"));
+
+app.use(cookieParser());
+
+export { app };
